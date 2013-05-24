@@ -4,8 +4,6 @@
 package it.devteam.auh;
 
 import it.devteam.lib.LibUtil;
-import it.devteam.location.MapDevActivity;
-import it.devteam.location.MappaAcivity;
 
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -56,18 +54,4 @@ public class BibliotecheActivity extends Activity {
 
 		});
 	}
-
-	public void launchMapDev(ArrayList<ContentValues> arrayList, int id) {
-		ArrayList<ContentValues> al = arrayList;
-		String indirizzo = (String) arrayList.get(id).get(LibUtil.KEY_NAME);
-		Intent i = new Intent(this, MapDevActivity.class);
-		i.putExtra(LibUtil.KEY_INDIRIZZO, indirizzo);
-		startActivity(i);
-	}
-	
-	public void launch (){
-		Intent i = new Intent(this, MappaAcivity.class);
-		startActivity(i);
-	}
-
 }
