@@ -2,16 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1d8d8131-982a-457a-b50d-d76e8f00ed4d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/it/devteam/location/LocationsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/it/devteam/location/MapDevActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/it/devteam/location/MappaAcivity.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/it/devteam/auh/BibliotecheActivity.java" afterPath="$PROJECT_DIR$/src/it/devteam/auh/BibliotecheActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/it/devteam/lib/LibUtil.java" afterPath="$PROJECT_DIR$/src/it/devteam/lib/LibUtil.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="AUH.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="1d8d8131-982a-457a-b50d-d76e8f00ed4d" time="1369429292205" ignored="false" />
+    <file path="/Dummy.txt" changelist="1d8d8131-982a-457a-b50d-d76e8f00ed4d" time="1369586822767" ignored="false" />
     <file path="$PROJECT_DIR$/gen/it/devteam/auh/BuildConfig.java" changelist="1d8d8131-982a-457a-b50d-d76e8f00ed4d" time="1369429277664" ignored="false" />
+    <file path="/LibUtil.java" changelist="1d8d8131-982a-457a-b50d-d76e8f00ed4d" time="1369587586439" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +29,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -68,6 +65,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -76,7 +74,48 @@
     <favorites_list name="AUH" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="BibliotecheActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/it/devteam/auh/BibliotecheActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="0" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EdicoleActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/it/devteam/auh/EdicoleActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="60" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LibUtil.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/it/devteam/lib/LibUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="101" column="4" selection-start="2841" selection-end="2841" vertical-scroll-proportion="0.31088084">
+              <folding>
+                <element signature="docComment;class#LibUtil#0" expanded="false" />
+                <element signature="docComment;method#findVirgola#0;class#LibUtil#0" expanded="false" />
+                <element signature="method#findVirgola#0;class#LibUtil#0" expanded="false" />
+                <element signature="docComment;method#getValue#0;class#LibUtil#0" expanded="false" />
+                <element signature="method#getValue#0;class#LibUtil#0" expanded="false" />
+                <element signature="docComment;method#getValueFromCSV#0;class#LibUtil#0" expanded="false" />
+                <element signature="method#getValueFromCSV#0;class#LibUtil#0" expanded="false" />
+                <element signature="docComment;method#generaArrayToView#0;class#LibUtil#0" expanded="false" />
+                <element signature="method#generaArrayToView#0;class#LibUtil#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -100,6 +139,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/it/devteam/auh/BibliotecheActivity.java" />
+        <option value="$PROJECT_DIR$/src/it/devteam/lib/LibUtil.java" />
       </list>
     </option>
   </component>
@@ -138,6 +178,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,18 +239,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
@@ -364,17 +404,22 @@
       <workItem from="1369427777874" duration="204000" />
       <workItem from="1369427993452" duration="286000" />
       <workItem from="1369428351539" duration="41000" />
-      <workItem from="1369429239924" duration="197000" />
+      <workItem from="1369429239924" duration="224000" />
+      <workItem from="1369586812590" duration="786000" />
     </task>
     <task id="LOCAL-00001" summary="Prova">
       <created>1369429309125</created>
       <updated>1369429309125</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Eliminate classi inutili">
+      <created>1369429451740</created>
+      <updated>1369429451740</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="728000" />
+    <option name="totallyTimeSpent" value="1541000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1900" height="1113" extended-state="0" />
@@ -382,12 +427,13 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964823" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -398,7 +444,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -445,7 +490,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prova" />
+    <option name="LAST_COMMIT_MESSAGE" value="Eliminate classi inutili" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -460,6 +505,7 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Prova" />
+    <MESSAGE value="Eliminate classi inutili" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -477,10 +523,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/it/devteam/auh/BibliotecheActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1432" selection-end="1432" vertical-scroll-proportion="0.77720207">
+        <state line="43" column="0" selection-start="1182" selection-end="1182" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/devteam/auh/EdicoleActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="60" selection-start="715" selection-end="715" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/it/devteam/lib/LibUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="4" selection-start="2841" selection-end="2841" vertical-scroll-proportion="0.31088084">
+          <folding>
+            <element signature="docComment;class#LibUtil#0" expanded="false" />
+            <element signature="docComment;method#findVirgola#0;class#LibUtil#0" expanded="false" />
+            <element signature="method#findVirgola#0;class#LibUtil#0" expanded="false" />
+            <element signature="docComment;method#getValue#0;class#LibUtil#0" expanded="false" />
+            <element signature="method#getValue#0;class#LibUtil#0" expanded="false" />
+            <element signature="docComment;method#getValueFromCSV#0;class#LibUtil#0" expanded="false" />
+            <element signature="method#getValueFromCSV#0;class#LibUtil#0" expanded="false" />
+            <element signature="docComment;method#generaArrayToView#0;class#LibUtil#0" expanded="false" />
+            <element signature="method#generaArrayToView#0;class#LibUtil#0" expanded="false" />
           </folding>
         </state>
       </provider>
